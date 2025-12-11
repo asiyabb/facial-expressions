@@ -1,0 +1,13 @@
+pandas
+opencv-python
+torch
+torchvision
+matplotlib
+scikit-learn
+tqdm
+jupyterlab
+
+
+python -m venv myenv
+source myenv/Scripts/activate
+
