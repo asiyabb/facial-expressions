@@ -5,6 +5,20 @@ This repo contains a Google Colab notebook that trains a **Facial Emotion Recogn
 > Note: AffectNet is **not redistributed** in this repository. You must obtain it through the official channels and place it in the expected folder structure.
 
 ---
+## Model Performance
+
+The EfficientNet-B0 model trained on the AffectNet dataset achieved the following performance:
+
+- **Test Accuracy:** ~58–62%
+
+> Accuracy varies depending on:
+> - Class balance and subset selection
+> - Image preprocessing and augmentation
+> - Training epochs and fine-tuning depth
+
+This result is **consistent with baseline CNN performance on AffectNet**, which is a highly challenging dataset due to label noise, pose variation, and class imbalance.
+
+Accuracy alone should not be considered sufficient for evaluation; macro-F1 and per-class performance are more informative for AffectNet.
 
 ## What’s inside
 
